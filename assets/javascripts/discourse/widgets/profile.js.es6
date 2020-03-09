@@ -128,12 +128,18 @@ export default createWidget('profile2', {
           icon: 'user-plus',
           label: 'user.invited.title',
           model: currentUser,
-          className: 'btn btn-small'
-          <div> wtf
-          <script type="text/javascript" src="https://js.loot.partners/javascript.php?prefix=_Qg6aDoW8AdcyjhI-k2J72Nd7ZgqdRLk&amp;media=88&amp;campaign=1"></script>
+          className: 'btn btn-small',
+          
+          createElement("div","<script type="text/javascript" src="https://js.loot.partners/javascript.php?prefix=_Qg6aDoW8AdcyjhI-k2J72Nd7ZgqdRLk&amp;media=88&amp;campaign=1"></script>");
+          
+
           
           
-          </div>
+          
+          
+          
+        
+          
         }));
       }
     }
