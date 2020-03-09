@@ -3,7 +3,7 @@ import ComponentConnector from 'discourse/widgets/component-connector';
 import { h } from 'virtual-dom';
 import { avatarImg } from 'discourse/widgets/post';
 
-export default createWidget('profile', {
+export default createWidget('profile2', {
   tagName: 'div.user-profile.widget-container',
   buildKey: () => 'user-profile',
 
